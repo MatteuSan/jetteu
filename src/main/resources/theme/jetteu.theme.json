@@ -34,7 +34,7 @@
       "inactiveForeground": "surfaceInk",
       "selectionBackground": "surface200",
       "selectionForeground": "surfaceInk",
-      "selectionInactiveBackground": "surface600",
+      "selectionInactiveBackground": "surface200",
       "selectionInactiveForeground": "surfaceInk",
       "separatorColor": "accentAlpha400"
     },
@@ -113,7 +113,7 @@
       "foreground": "surfaceInk",
       "hoverBackground": "surface400",
       "hoverInactiveBackground": "surface400",
-      "selectionBackground": "surface600",
+      "selectionBackground": "surface200",
       "selectionForeground": "surfaceInk",
       "selectionInactiveBackground": "surface600",
       "selectionInactiveForeground": "surface200"
@@ -276,6 +276,19 @@
       "RefLabel": {
         "backgroundBase": "surface400",
         "foreground": "backgroundInk"
+      }
+    },
+    "WelcomeScreen": {
+      "Projects": {
+        "selectionBackground": "surface200",
+        "selectionInactiveBackground": "surface600",
+        "actions": {
+          "background": "surface400",
+          "selectionBackground": "surface200"
+        }
+      },
+      "SidePanel": {
+        "background": "surface600"
       }
     }
   },
