@@ -13,9 +13,8 @@ repositories {
 
 // Configure Gradle IntelliJ Plugin - read more: https://github.com/JetBrains/gradle-intellij-plugin
 intellij {
-    type.set("IU") // Target IDE Platform
-    version.set("2022.1")
-    plugins.set(listOf("com.jetbrains.php:221.5080.224"))
+    type.set("IC")
+    version.set("2021.2")
 }
 
 tasks {
