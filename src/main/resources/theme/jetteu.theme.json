@@ -34,7 +34,7 @@
       "inactiveForeground": "surfaceInk",
       "selectionBackground": "surface200",
       "selectionForeground": "surfaceInk",
-      "selectionInactiveBackground": "surface200",
+      "selectionInactiveBackground": "surface600",
       "selectionInactiveForeground": "surfaceInk",
       "separatorColor": "accentAlpha400"
     },
@@ -58,9 +58,9 @@
         "focusedBorderColor": "accent400",
         "focusColor": "accentAlpha400"
       },
-      "background": "transparent",
-      "startBackground": "transparent",
-      "endBackground": "transparent",
+      "background": "surface400",
+      "startBackground": "surface400",
+      "endBackground": "surface400",
       "foreground": "accent400",
       "startBorderColor": "accent400",
       "endBorderColor": "accent400",
@@ -116,7 +116,7 @@
       "selectionBackground": "surface200",
       "selectionForeground": "surfaceInk",
       "selectionInactiveBackground": "surface600",
-      "selectionInactiveForeground": "surface200"
+      "selectionInactiveForeground": "surfaceInk"
     },
     "Notification": {
       "arc": 8,
@@ -126,14 +126,31 @@
       "errorBorderColor": "#801c1c",
       "MoreButton": {
         "foreground": "accent400"
+      },
+      "ToolWindow": {
+        "errorBackground": "#630101",
+        "errorBorderColor": "#801c1c",
+        "warningBackground": "#905e01",
+        "warningBorderColor": "#c79230",
+        "informativeBackground": "#011931",
+        "informativeBorderColor": "#103b63"
+      }
+    },
+    "NotificationsToolwindow": {
+      "newNotification": {
+        "background": "#0e5521",
+        "hoverBackground": "#236f37"
+      },
+      "Notification": {
+        "hoverBackground": "surface200"
       }
     },
     "Plugins": {
       "Button": {
-        "installBackground": "transparent",
+        "installBackground": "surface400",
         "installForeground": "accent400",
         "installBorderColor": "accent400",
-        "installFillBackground": "transparent",
+        "installFillBackground": "surface400",
         "installFillForeground": "accent400"
       },
       "SectionHeader": {
@@ -220,7 +237,7 @@
     },
     "TitlePane": {
       "background": "surface600",
-      "infoForeground": "surface200"
+      "infoForeground": "#727272"
     },
     "ToggleButton": {
       "borderColor": "surface400",
@@ -294,9 +311,9 @@
   },
   "icons": {
     "ColorPalette": {
-      "#43494A": "surface600",
-      "#6B6B6B": "surface400",
-      "#A7A7A7": "background",
+      "#43494A": "#2b2b2b",
+      "#6B6B6B": "#474747",
+      "#A7A7A7": "#868686",
       "#3D6185": "accent600",
       "#466D94": "accent400",
       "#3C3F41": "#3C3F41",
