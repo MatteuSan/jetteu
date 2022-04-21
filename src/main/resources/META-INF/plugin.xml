@@ -19,11 +19,12 @@
 
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.jetbrains.php</depends>
     <depends>com.intellij.modules.platform</depends>
-
+    <idea-version since-build="212" until-build="222.*"/>
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-
+        <themeProvider id="matteusan.themes.jetteu-v1" path="theme/jetteu.theme.json" />
     </extensions>
 </idea-plugin>
