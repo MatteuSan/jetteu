@@ -1,11 +1,14 @@
 plugins {
     id("java")
-    id("org.jetbrains.kotlin.jvm") version "1.5.10"
-    id("org.jetbrains.intellij") version "1.5.3"
+    id("org.jetbrains.kotlin.jvm") version "1.7.21"
+    id("org.jetbrains.intellij") version "1.10.0"
+    id("org.jetbrains.changelog") version "2.0.0"
+    id("org.jetbrains.qodana") version "0.1.13"
+    id("org.jetbrains.kotlinx.kover") version "0.6.1"
 }
 
 group = "com.matteu"
-version = "1.0-SNAPSHOT"
+version = "1.0.2"
 
 repositories {
     mavenCentral()
@@ -33,7 +36,7 @@ tasks {
 
     patchPluginXml {
         sinceBuild.set("212")
-        untilBuild.set("222.*")
+        untilBuild.set("233.*")
     }
 
     signPlugin {

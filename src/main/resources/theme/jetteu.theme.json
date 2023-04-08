@@ -78,10 +78,20 @@
       },
       "disabledForeground": "surface200"
     },
+    "ComplexPopup": {
+      "Header": {
+        "background": "surface200"
+      }
+    },
     "DefaultTabs": {
       "background": "surface400",
       "underlineColor": "accent400",
       "inactiveUnderlineColor": "surface200"
+    },
+    "Editor": {
+      "background": "surface600",
+      "foreground": "surfaceInk",
+      "shortcutForeground": "accent400"
     },
     "EditorTabs": {
       "underlineColor": "accent400",
@@ -151,7 +161,10 @@
         "installForeground": "accent400",
         "installBorderColor": "accent400",
         "installFillBackground": "surface400",
-        "installFillForeground": "accent400"
+        "installFillForeground": "accent400",
+        "updateBackground": "accent400",
+        "updateBorderColor": "accent400",
+        "updateForeground": "accentInk"
       },
       "SectionHeader": {
         "background": "surface600",
@@ -264,7 +277,7 @@
       }
     },
     "Tree": {
-      "rowHeight": 25
+      "rowHeight": 27
     },
     "VersionControl": {
       "FileHistory.Commit": {
