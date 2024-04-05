@@ -2,7 +2,7 @@
   "name": "Jetteu Theme",
   "dark": true,
   "author": "Matteu",
-  "editorScheme": "/theme/GruvTeu.xml",
+  "editorScheme": "/gruvteu.xml",
   "colors": {
     "surface200": "#454545",
     "surface400": "#292929",

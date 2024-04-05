@@ -8,7 +8,7 @@
     <name>Jetteu Theme</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="matteugt@gmail.com" url="https://matteusan.me">MatteuSan</vendor>
+    <vendor email="matt@matteusan.com" url="https://matteusan.com">MatteuSan</vendor>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
@@ -20,7 +20,7 @@
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
-    <idea-version since-build="212" until-build="223.*"/>
+    <idea-version since-build="212" until-build="242.*"/>
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
