@@ -2,7 +2,7 @@
   "name": "Jetteu Theme",
   "dark": true,
   "author": "Matteu",
-  "editorScheme": "/theme/GruvTeu.xml",
+  "editorScheme": "/GruvTeu.xml",
   "colors": {
     "surface200": "#454545",
     "surface400": "#292929",
@@ -96,7 +96,7 @@
     "EditorTabs": {
       "underlineColor": "accent400",
       "inactiveUnderlineColor": "surface200",
-      "underlineHeight": 2,
+      "underlineHeight": 3,
       "underlinedTabBackground": "surface400",
       "underlinedTabForeground": "surfaceInk"
     },
@@ -196,7 +196,7 @@
       "foreground": "backgroundInk"
     },
     "Settings.Spotlight.borderColor": "accentAlpha400",
-    "SettingsTree.rowHeight": 25,
+    "SettingsTree.rowHeight": 27,
     "Slider": {
       "background": "background",
       "buttonBorderColor": "accent400",
