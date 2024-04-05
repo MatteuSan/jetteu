@@ -1,7 +1,0 @@
-File Colors:
-"Orange": "#ffa04010"
-"Yellow": "#fabd2f10"
-"Green": "#86d38c10"
-"Blue": "#80abff10"
-"Rose": "#e738a110"
-"Violet": "#a53ff610"

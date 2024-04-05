@@ -10,7 +10,7 @@ build/
 .idea/compiler.xml
 .idea/libraries/
 *.iws
-*.iml
+/resources/*.iml
 *.ipr
 out/
 !**/src/main/**/out/

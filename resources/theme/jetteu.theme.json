@@ -148,8 +148,8 @@
     },
     "NotificationsToolwindow": {
       "newNotification": {
-        "background": "#0e5521",
-        "hoverBackground": "#236f37"
+        "background": "#363636",
+        "hoverBackground": "#535353"
       },
       "Notification": {
         "hoverBackground": "surface200"
