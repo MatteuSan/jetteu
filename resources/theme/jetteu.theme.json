@@ -2,7 +2,7 @@
   "name": "Jetteu Theme",
   "dark": true,
   "author": "Matteu",
-  "editorScheme": "/GruvTeu.xml",
+  "editorScheme": "/gruvteu.xml",
   "colors": {
     "surface200": "#454545",
     "surface400": "#292929",
@@ -96,7 +96,7 @@
     "EditorTabs": {
       "underlineColor": "accent400",
       "inactiveUnderlineColor": "surface200",
-      "underlineHeight": 3,
+      "underlineHeight": 2,
       "underlinedTabBackground": "surface400",
       "underlinedTabForeground": "surfaceInk"
     },
@@ -148,8 +148,8 @@
     },
     "NotificationsToolwindow": {
       "newNotification": {
-        "background": "#363636",
-        "hoverBackground": "#535353"
+        "background": "#0e5521",
+        "hoverBackground": "#236f37"
       },
       "Notification": {
         "hoverBackground": "surface200"
@@ -196,7 +196,7 @@
       "foreground": "backgroundInk"
     },
     "Settings.Spotlight.borderColor": "accentAlpha400",
-    "SettingsTree.rowHeight": 27,
+    "SettingsTree.rowHeight": 25,
     "Slider": {
       "background": "background",
       "buttonBorderColor": "accent400",
