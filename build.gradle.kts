@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "com.matteu"
-version = "1.0.3"
+version = "1.0.5"
 
 repositories {
     mavenCentral()
@@ -36,7 +36,7 @@ tasks {
 
     patchPluginXml {
         sinceBuild.set("212")
-        untilBuild.set("242.*")
+        untilBuild.set("255.*")
     }
 
     signPlugin {
