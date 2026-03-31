@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31073e9b-7836-4d95-98bd-52c653bdf896" name="Changes" comment="Convert v1 to v2 plugin platform">
+    <list default="true" id="31073e9b-7836-4d95-98bd-52c653bdf896" name="Changes" comment="Minor theme changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/theme/GruvTeu.icls" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theme/GruvTeu.icls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/theme/jetteu.theme.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theme/jetteu.theme.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +141,7 @@
     "Plugin.Run Plugin.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
@@ -160,7 +157,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.com.intellij.openapi.options.colors.pages.DefaultLanguageColorsPage",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.com.intellij.openapi.vcs.actions.VcsColorsPageFactory",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
@@ -330,7 +327,7 @@
       <workItem from="1747207047199" duration="314000" />
       <workItem from="1774960539879" duration="2233000" />
       <workItem from="1774973915229" duration="926000" />
-      <workItem from="1774974873236" duration="3467000" />
+      <workItem from="1774974873236" duration="3829000" />
     </task>
     <task id="LOCAL-00001" summary="Update all">
       <option name="closed" value="true" />
@@ -372,7 +369,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774961862234</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Minor theme changes">
+      <option name="closed" value="true" />
+      <created>1774978801580</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774978801580</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Minor theme changes">
+      <option name="closed" value="true" />
+      <created>1774978806199</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1774978806199</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,7 +404,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update all" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update all" />
+    <MESSAGE value="Minor theme changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor theme changes" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
