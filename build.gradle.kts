@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "com.matteu"
-version = "1.0.6"
+version = "1.1.0"
 
 repositories {
     mavenCentral()
@@ -17,7 +17,7 @@ repositories {
 // Configure Gradle IntelliJ Plugin - read more: https://github.com/JetBrains/gradle-intellij-plugin
 intellij {
     type.set("IC")
-    version.set("2021.2")
+    version.set("2026.1")
 }
 
 tasks {
@@ -35,7 +35,8 @@ tasks {
     }
 
     patchPluginXml {
-        sinceBuild.set("212")
+        sinceBuild.set("261")
+        untilBuild.set("261.*")
     }
 
     signPlugin {

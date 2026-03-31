@@ -1,11 +1,8 @@
 <scheme name="GruvTeu" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2022-05-02T14:31:41</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2022.1.0.0</property>
-    <property name="modified">2022-05-02T14:32:03</property>
-    <property name="originalScheme">GruvTeu</property>
+    <property name="ideVersion">2026.1.0.0</property>
   </metaInfo>
   <console-font>
     <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
@@ -17,74 +14,74 @@
   </console-font>
   <option name="CONSOLE_LINE_SPACING" value="0.9" />
   <colors>
-    <option name="ADDED_LINES_COLOR" value="b9ec92" />
+    <option name="ADDED_LINES_COLOR" value="B9EC92" />
     <option name="ANNOTATIONS_COLOR" value="928374" />
-    <option name="CARET_ROW_COLOR" value="3c3836" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="1d2021" />
-    <option name="DELETED_LINES_COLOR" value="ff4f4f" />
+    <option name="CARET_ROW_COLOR" value="3C3836" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="1D2021" />
+    <option name="DELETED_LINES_COLOR" value="FF4F4F" />
     <option name="DOCUMENTATION_COLOR" value="282828" />
-    <option name="FILESTATUS_ADDED" value="c3e887" />
-    <option name="FILESTATUS_COPIED" value="c3e88d" />
-    <option name="FILESTATUS_DELETED" value="f77669" />
-    <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
+    <option name="FILESTATUS_ADDED" value="C3E887" />
+    <option name="FILESTATUS_COPIED" value="C3E88D" />
+    <option name="FILESTATUS_DELETED" value="F77669" />
+    <option name="FILESTATUS_HIJACKED" value="FFCB6B" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="808080" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="fc9867" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="fc9867" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="fc9867" />
-    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="c3e88d" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="AB7967" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="FC9867" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="FC9867" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="FC9867" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="C3E88D" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
-    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="c3e88d" />
-    <option name="FILESTATUS_MERGED" value="c792ea" />
-    <option name="FILESTATUS_MODIFIED" value="80cbc4" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
-    <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
-    <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
-    <option name="FILESTATUS_SWITCHED" value="f77669" />
-    <option name="FILESTATUS_UNKNOWN" value="f77669" />
-    <option name="FILESTATUS_addedOutside" value="c3e88d" />
-    <option name="FILESTATUS_modifiedOutside" value="c792ea" />
+    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="C3E88D" />
+    <option name="FILESTATUS_MERGED" value="C792EA" />
+    <option name="FILESTATUS_MODIFIED" value="80CBC4" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80CBC4" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80CBC4" />
+    <option name="FILESTATUS_OBSOLETE" value="FFCB6B" />
+    <option name="FILESTATUS_SUPPRESSED" value="546E7A" />
+    <option name="FILESTATUS_SWITCHED" value="F77669" />
+    <option name="FILESTATUS_UNKNOWN" value="F77669" />
+    <option name="FILESTATUS_addedOutside" value="C3E88D" />
+    <option name="FILESTATUS_modifiedOutside" value="C792EA" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="363636" />
     <option name="GUTTER_BACKGROUND" value="232323" />
-    <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="b9ec92" />
-    <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="ff4f4f" />
-    <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="ffc86a" />
-    <option name="INDENT_GUIDE" value="665c54" />
+    <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="B9EC92" />
+    <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="FF4F4F" />
+    <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="FFC86A" />
+    <option name="INDENT_GUIDE" value="665C54" />
     <option name="LINE_NUMBERS_COLOR" value="928374" />
-    <option name="METHOD_SEPARATORS_COLOR" value="2a2a2a" />
-    <option name="MODIFIED_LINES_COLOR" value="ffc86a" />
-    <option name="RIGHT_MARGIN_COLOR" value="665c54" />
-    <option name="SELECTED_INDENT_GUIDE" value="f8e1aa" />
-    <option name="SELECTED_TEARLINE_COLOR" value="8ec07c" />
-    <option name="SELECTION_BACKGROUND" value="665c54" />
-    <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="3c3836" />
-    <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="3c3836" />
+    <option name="METHOD_SEPARATORS_COLOR" value="2A2A2A" />
+    <option name="MODIFIED_LINES_COLOR" value="FFC86A" />
+    <option name="RIGHT_MARGIN_COLOR" value="665C54" />
+    <option name="SELECTED_INDENT_GUIDE" value="F8E1AA" />
+    <option name="SELECTED_TEARLINE_COLOR" value="8EC07C" />
+    <option name="SELECTION_BACKGROUND" value="665C54" />
+    <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="3C3836" />
+    <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="3C3836" />
     <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="282828" />
     <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="50494588" />
     <option name="ScrollBar.Mac.Transparent.thumbColor" value="50494588" />
     <option name="ScrollBar.Mac.Transparent.trackColor" value="" />
-    <option name="ScrollBar.Mac.hoverThumbBorderColor" value="3c3836" />
-    <option name="ScrollBar.Mac.hoverThumbColor" value="3c3836" />
+    <option name="ScrollBar.Mac.hoverThumbBorderColor" value="3C3836" />
+    <option name="ScrollBar.Mac.hoverThumbColor" value="3C3836" />
     <option name="ScrollBar.Mac.hoverTrackColor" value="282828" />
     <option name="ScrollBar.Mac.thumbBorderColor" value="50494588" />
     <option name="ScrollBar.Mac.thumbColor" value="50494588" />
     <option name="ScrollBar.Mac.trackColor" value="" />
     <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="" />
-    <option name="ScrollBar.Transparent.hoverThumbColor" value="ff8000" />
+    <option name="ScrollBar.Transparent.hoverThumbColor" value="FF8000" />
     <option name="ScrollBar.Transparent.hoverTrackColor" value="282828" />
     <option name="ScrollBar.Transparent.thumbBorderColor" value="50494588" />
-    <option name="ScrollBar.Transparent.thumbColor" value="7d3f06" />
+    <option name="ScrollBar.Transparent.thumbColor" value="7D3F06" />
     <option name="ScrollBar.Transparent.trackColor" value="" />
     <option name="ScrollBar.background" value="282828" />
     <option name="ScrollBar.hoverThumbBorderColor" value="" />
-    <option name="ScrollBar.hoverThumbColor" value="ff8000" />
-    <option name="ScrollBar.hoverTrackColor" value="1f1f1f" />
-    <option name="ScrollBar.thumbBorderColor" value="ff8000" />
-    <option name="ScrollBar.thumbColor" value="ff8000bf" />
+    <option name="ScrollBar.hoverThumbColor" value="FF8000" />
+    <option name="ScrollBar.hoverTrackColor" value="1F1F1F" />
+    <option name="ScrollBar.thumbBorderColor" value="FF8000" />
+    <option name="ScrollBar.thumbColor" value="FF8000BF" />
     <option name="ScrollBar.trackColor" value="" />
-    <option name="TEARLINE_COLOR" value="665c54" />
-    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="4b4b4b" />
+    <option name="TEARLINE_COLOR" value="665C54" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="4B4B4B" />
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
@@ -178,7 +175,7 @@
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="fb4934" />
+        <option name="FOREGROUND" value="ff5f5f" />
       </value>
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
@@ -215,13 +212,13 @@
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="fb4934" />
+        <option name="FOREGROUND" value="ff5f5f" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CONSOLE_RED_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="fb4934" />
+        <option name="FOREGROUND" value="ff5f5f" />
       </value>
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
@@ -464,11 +461,6 @@
         <option name="BACKGROUND" value="1a1a1a" />
       </value>
     </option>
-    <option name="DEFAULT_INSTANCE_METHOD">
-      <value>
-        <option name="FOREGROUND" value="ffc66d" />
-      </value>
-    </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="fabd2f" />
@@ -641,15 +633,12 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="GO_COMMENT_REFERENCE" baseAttributes="DEFAULT_LINE_COMMENT" />
-    <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_FUNCTION_PARAMETER">
       <value>
         <option name="FOREGROUND" value="ff80a6" />
         <option name="BACKGROUND" value="1a1a1a" />
       </value>
     </option>
-    <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_METHOD_RECEIVER">
       <value>
         <option name="FOREGROUND" value="ff80a6" />
@@ -669,8 +658,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="GO_SHADOWING_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
     <option name="Groovy method declaration" baseAttributes="METHOD_DECLARATION_ATTRIBUTES" />
     <option name="HANDLEBARS.DATA_PREFIX">
       <value>
@@ -697,6 +684,7 @@
         <option name="FOREGROUND" value="fabd2f" />
       </value>
     </option>
+    <option name="HTML_CUSTOM_TAG_NAME" baseAttributes="HTML_TAG_NAME" />
     <option name="HTML_TAG">
       <value>
         <option name="FOREGROUND" value="b2d1eb" />
@@ -858,7 +846,7 @@
         <option name="FOREGROUND" value="83a598" />
       </value>
     </option>
-    <option name="LESS_VARIABLE" baseAttributes="" />
+    <option name="LESS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="LIVE_TEMPLATE_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="93b2d9" />
@@ -866,7 +854,7 @@
     </option>
     <option name="LOG_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="fb4934" />
+        <option name="FOREGROUND" value="ff5f5f" />
       </value>
     </option>
     <option name="LOG_EXPIRED_ENTRY">
@@ -1036,8 +1024,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="PHP_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
-    <option name="PHP_EXEC_COMMAND_ID" baseAttributes="DEFAULT_STRING" />
     <option name="PHP_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="fabd2f" />
@@ -1048,7 +1034,6 @@
         <option name="FOREGROUND" value="e1acff" />
       </value>
     </option>
-    <option name="PHP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PHP_PRIMITIVE_TYPE_HINT">
       <value>
         <option name="FOREGROUND" value="c47fff" />
@@ -1066,7 +1051,6 @@
         <option name="BACKGROUND" value="1a1a1a" />
       </value>
     </option>
-    <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="PROPERTIES.KEY">
       <value>
         <option name="FOREGROUND" value="d3869b" />
@@ -1079,8 +1063,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.PREDEFINED_DEFINITION">
       <value>
         <option name="FOREGROUND" value="ffb980" />
@@ -1151,14 +1133,11 @@
         <option name="FOREGROUND" value="e78636" />
       </value>
     </option>
-    <option name="RUBY_BAD_CHARACTER" baseAttributes="BAD_CHARACTER" />
     <option name="RUBY_CONSTANT">
       <value>
         <option name="FOREGROUND" value="ffcc6e" />
       </value>
     </option>
-    <option name="RUBY_CONSTANT_DECLARATION" baseAttributes="DEFAULT_CONSTANT" />
-    <option name="RUBY_GVAR" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="RUBY_HASH_ASSOC">
       <value>
         <option name="FOREGROUND" value="fbf1c7" />
@@ -1189,11 +1168,6 @@
         <option name="FOREGROUND" value="e78636" />
       </value>
     </option>
-    <option name="RUBY_LOCAL_VAR_ID" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-    <option name="RUBY_NTH_REF" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-    <option name="RUBY_NUMBER" baseAttributes="DEFAULT_NUMBER" />
-    <option name="RUBY_PARAMDEF_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
-    <option name="RUBY_PARAMETER_ID" baseAttributes="DEFAULT_PARAMETER" />
     <option name="RUBY_REGEXP">
       <value>
         <option name="FOREGROUND" value="b8bb26" />
@@ -1204,8 +1178,6 @@
         <option name="FOREGROUND" value="e78636" />
       </value>
     </option>
-    <option name="RUBY_SYMBOL" baseAttributes="DEFAULT_INSTANCE_FIELD" />
-    <option name="RUBY_WORDS" baseAttributes="DEFAULT_STRING" />
     <option name="Rainbow Parens Level 1 (outermost)">
       <value>
         <option name="FOREGROUND" value="928374" />
@@ -1453,7 +1425,24 @@
         <option name="FOREGROUND" value="ee7272" />
       </value>
     </option>
-    <option name="com.plan9.IDENTIFIER" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="com.plan9.REGISTER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="org.rust.ENUM">
+      <value>
+        <option name="FOREGROUND" value="fabd2f" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="org.rust.ENUM_VARIANT">
+      <value>
+        <option name="FOREGROUND" value="7ba0d5" />
+        <option name="BACKGROUND" value="1a1a1a" />
+      </value>
+    </option>
+    <option name="org.rust.MACRO" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="org.rust.STRUCT" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="org.rust.TRAIT" baseAttributes="DEFAULT_INTERFACE_NAME" />
+    <option name="org.rust.TYPE_ALIAS" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="org.rust.TYPE_PARAMETER" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="org.rust.UNION" baseAttributes="DEFAULT_CLASS_NAME" />
   </attributes>
 </scheme>

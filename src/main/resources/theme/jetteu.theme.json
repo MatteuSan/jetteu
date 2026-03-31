@@ -1,8 +1,9 @@
 {
-  "name": "Jetteu Theme",
+  "name": "Jetteu",
   "dark": true,
   "author": "Matteu",
   "editorScheme": "/gruvteu.xml",
+  "parentTheme": "Islands Dark",
   "colors": {
     "surface200": "#454545",
     "surface400": "#292929",
@@ -43,29 +44,32 @@
       "selectionInactiveBackground": "surface600"
     },
     "ActionButton": {
-      "hoverBackground": "accent600",
-      "pressedBackground": "accentAlpha400",
-      "hoverBorderColor": "accent600",
+      "hoverBackground": "accentAlpha600",
+      "pressedBackground": "accentAlpha600",
+      "hoverBorderColor": "accentAlpha400",
       "pressedBorderColor": "accentAlpha400"
     },
     "Button": {
       "default": {
-        "startBackground": "accent400",
-        "endBackground": "accent400",
-        "foreground": "accentInk",
-        "startBorderColor": "accent400",
-        "endBorderColor": "accent400",
-        "focusedBorderColor": "accent400",
+        "startBackground": "accentAlpha600",
+        "endBackground": "accentAlpha600",
+        "startBorderColor": "accentAlpha400",
+        "endBorderColor": "accentAlpha400",
+        "focusedBorderColor": "accentAlpha400",
         "focusColor": "accentAlpha400"
       },
       "background": "surface400",
-      "startBackground": "surface400",
-      "endBackground": "surface400",
-      "foreground": "accent400",
-      "startBorderColor": "accent400",
-      "endBorderColor": "accent400",
-      "disabledBorderColor": "accent600",
-      "disabledText": "accent600"
+      "startBackground": "#00000000",
+      "endBackground": "#00000000",
+      "startBorderColor": "accentAlpha400",
+      "endBorderColor": "accentAlpha400",
+      "disabledBorderColor": "surface200",
+      "disabledText": "surface200"
+    },
+    "CheckBox": {
+      "background": "surface400",
+      "foreground": "accentAlpha400",
+      "select": "accentAlpha400"
     },
     "Counter": {
       "background": "accent400",
@@ -80,11 +84,11 @@
     },
     "ComplexPopup": {
       "Header": {
-        "background": "surface200"
+        "background": "surface600"
       }
     },
     "DefaultTabs": {
-      "background": "surface400",
+      "background": "surface600",
       "underlineColor": "accent400",
       "inactiveUnderlineColor": "surface200"
     },
@@ -94,10 +98,12 @@
       "shortcutForeground": "accent400"
     },
     "EditorTabs": {
-      "underlineColor": "accent400",
-      "inactiveUnderlineColor": "surface200",
+      "background": "surface600",
+      "underlinedBorderColor": "accentAlpha400",
+      "inactiveUnderlinedTabBorderColor": "surfaceAlpha200",
       "underlineHeight": 2,
-      "underlinedTabBackground": "surface400",
+      "underlinedTabBackground": "accentAlpha600",
+      "inactiveUnderlinedTabBackground": "surfaceAlpha400",
       "underlinedTabForeground": "surfaceInk"
     },
     "FileColor": {
@@ -110,6 +116,11 @@
     },
     "GotItTooltip": {
       "linkForeground": "accent400"
+    },
+    "Island": {
+      "arc": 25,
+      "arc.compact": 20,
+      "borderColor": "surfaceAlpha400"
     },
     "Link": {
       "activeForeground": "accent400",
@@ -157,14 +168,14 @@
     },
     "Plugins": {
       "Button": {
-        "installBackground": "surface400",
-        "installForeground": "accent400",
-        "installBorderColor": "accent400",
-        "installFillBackground": "surface400",
-        "installFillForeground": "accent400",
-        "updateBackground": "accent400",
-        "updateBorderColor": "accent400",
-        "updateForeground": "accentInk"
+        "installBackground": "accentAlpha600",
+        "installForeground": "surfaceInk",
+        "installBorderColor": "accentAlpha400",
+        "installFillBackground": "accentAlpha600",
+        "installFillForeground": "surfaceInk",
+        "updateBackground": "accentAlpha600",
+        "updateBorderColor": "accentAlpha400",
+        "updateForeground": "surfaceInk"
       },
       "SectionHeader": {
         "background": "surface600",
@@ -207,40 +218,10 @@
     },
     "ScrollBar": {
       "background": "surface600",
-      "hoverThumbBorderColor": "accent400",
-      "hoverThumbColor": "accent400",
-      "hoverTrackColor": "surfaceAlpha400",
-      "thumb": "accent400",
-      "thumbBorderColor": "accentAlpha400",
-      "thumbColor": "accentAlpha400",
-      "trackColor": "surfaceAlpha400",
-      "Transparent": {
-        "hoverThumbBorderColor": "accent400",
-        "hoverThumbColor": "accent400",
-        "hoverTrackColor": "surfaceAlpha400",
-        "thumbBorderColor": "accentAlpha400",
-        "thumbColor": "accentAlpha400",
-        "trackColor": "surfaceAlpha400"
-      },
-      "Mac": {
-        "hoverThumbBorderColor": "accent400",
-        "hoverThumbColor": "accent400",
-        "hoverTrackColor": "surfaceAlpha400",
-        "thumbBorderColor": "accentAlpha400",
-        "thumbColor": "accentAlpha400",
-        "trackColor": "surfaceAlpha400",
-        "Transparent": {
-          "hoverThumbBorderColor": "accent400",
-          "hoverThumbColor": "accent400",
-          "hoverTrackColor": "surfaceAlpha400",
-          "thumbBorderColor": "accentAlpha400",
-          "thumbColor": "accentAlpha400",
-          "trackColor": "surfaceAlpha400"
-        }
-      }
+      "thumb": "surfaceAlpha200",
+      "trackHighlight": "transparent"
     },
     "TabbedPane": {
-      "tabSelectionHeight": 2,
       "underlineColor": "accent400",
       "disabledUnderlineColor": "surface200"
     },
@@ -274,10 +255,14 @@
       "HeaderTab": {
         "underlineColor": "accent400",
         "underlineHeight": 2
+      },
+      "Stripe": {
+        "borderColor": "surfaceAlpha400",
+        "separatorColor": "accentAlpha400"
       }
     },
     "Tree": {
-      "rowHeight": 27
+      "rowHeight": 25
     },
     "VersionControl": {
       "FileHistory.Commit": {
@@ -334,19 +319,22 @@
       "#606060": "surface600",
       "#9AA7B0": "backgroundInk",
       "#675133": "accent400",
-      "Actions.Blue": "#83a6ff",
+      "Actions.Blue": "#bcd0ff",
       "Actions.Green": "#73bd7a",
       "Actions.Grey": "backgroundInk",
       "Actions.GreyInline": "surface200",
       "Actions.GreyInline.Dark": "backgroundInk",
       "Actions.Red": "#ff5f5f",
       "Actions.Yellow": "#ffcc5f",
-      "Checkbox.Background.Default": "surface200",
+      "Checkbox.Background.Default": "surfaceAlpha400",
+      "Checkbox.Background.Selected": "surfaceAlpha400",
+      "Checkbox.Border.Default": "surface200",
+      "Checkbox.Border.Selected": "surface200",
       "Checkbox.Background.Disabled": "surface600",
       "Checkbox.Foreground.Disabled": "surface200",
       "Checkbox.Foreground.Selected.Dark": "accent400",
       "Objects.BlackText": "backgroundColor",
-      "Objects.Blue": "#83a6ff",
+      "Objects.Blue": "#bcd0ff",
       "Objects.Green": "#73bd7a",
       "Objects.GreenAndroid": "#73bd7a",
       "Objects.Grey": "#afafaf",

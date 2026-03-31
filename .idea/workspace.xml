@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31073e9b-7836-4d95-98bd-52c653bdf896" name="Changes" comment="Update all">
+    <list default="true" id="31073e9b-7836-4d95-98bd-52c653bdf896" name="Changes" comment="Convert v1 to v2 plugin platform">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theme/GruvTeu.icls" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theme/GruvTeu.icls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theme/jetteu.theme.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theme/jetteu.theme.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/matteu/PhpStormProjects/matteusan/jetteu" value="2efT2vmSUdbcKvlIUu8HCywveXf" />
+    </persistenceIdMap>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -49,7 +58,29 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="jetteu" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jetteu" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="changelog" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jetteu" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="intellij" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jetteu" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jetteu" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -91,6 +122,10 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="l7yy3r3e" />
   </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
     &quot;associatedIndex&quot;: 6
     }</component>
@@ -101,13 +136,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Run Plugin.executor": "Run",
     "Gradle.jetteu [buildPlugin].executor": "Run",
     "Gradle.jetteu [build].executor": "Run",
     "Gradle.jetteu [clean].executor": "Run",
     "Gradle.jetteu [setupDependencies].executor": "Run",
     "Gradle.jetteu [verifyPlugin].executor": "Run",
     "Plugin.Run Plugin.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -120,14 +160,9 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.com.intellij.openapi.options.colors.pages.DefaultLanguageColorsPage",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "kotlin-gradle-user-dirs": [
-      "/Users/matteu/.gradle"
-    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -139,7 +174,7 @@
       <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.jetteu [verifyPlugin]">
+  <component name="RunManager" selected="Gradle.Run Plugin">
     <configuration name="jetteu [buildPlugin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -158,8 +193,11 @@
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
     <configuration name="jetteu [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -180,8 +218,11 @@
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
     <configuration name="jetteu [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -202,8 +243,11 @@
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
     <configuration name="jetteu [verifyPlugin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -224,8 +268,11 @@
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
     <configuration name="Run Plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
@@ -249,10 +296,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.jetteu [verifyPlugin]" />
         <item itemvalue="Gradle.jetteu [buildPlugin]" />
-        <item itemvalue="Gradle.jetteu [build]" />
         <item itemvalue="Gradle.jetteu [clean]" />
+        <item itemvalue="Gradle.jetteu [verifyPlugin]" />
+        <item itemvalue="Gradle.jetteu [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -282,6 +329,8 @@
       <workItem from="1747205685590" duration="1344000" />
       <workItem from="1747207047199" duration="314000" />
       <workItem from="1774960539879" duration="2233000" />
+      <workItem from="1774973915229" duration="926000" />
+      <workItem from="1774974873236" duration="3467000" />
     </task>
     <task id="LOCAL-00001" summary="Update all">
       <option name="closed" value="true" />
@@ -343,5 +392,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update all" />
     <option name="LAST_COMMIT_MESSAGE" value="Update all" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
