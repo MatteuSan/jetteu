@@ -66,11 +66,6 @@
       "disabledBorderColor": "surface200",
       "disabledText": "surface200"
     },
-    "CheckBox": {
-      "background": "surface400",
-      "foreground": "accentAlpha400",
-      "select": "accentAlpha400"
-    },
     "Counter": {
       "background": "accent400",
       "foreground": "accentInk"
@@ -246,7 +241,7 @@
     "ToolWindow": {
       "Button": {
         "hoverBackground": "accentAlpha400",
-        "selectedBackground": "surface600",
+        "selectedBackground": "accentAlpha400",
         "selectedForeground": "surfaceInk"
       },
       "Header": {
